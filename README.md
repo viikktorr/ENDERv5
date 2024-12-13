@@ -1,6 +1,6 @@
 <h1> Archivo configuracion de Creality Ender 5 (con BL Touch) </h1>
 
-<h4> (VALORES QUE SE HAN MODIFICADO) </h4>
+<h3> (VALORES QUE SE HAN MODIFICADO) </h3>
 
 [71] - La placa base es v4.2.7 -> MOTHERBOARD BOARD_CREALITY_V427
 [134] - (Opcional) Nombre de maquina cambiado -> CUSTOM_MACHINE_NAME "Ender 5 - v4.2.7"
