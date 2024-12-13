@@ -1,4 +1,4 @@
-<h1> Este archivo de configuracion es de una Impresora 3D Creality Ender 5 (con BL Touch) </h1>
+<h1> Archivo configuracion de Creality Ender 5 (con BL Touch) </h1>
 
 (VALORES QUE SE HAN MODIFICADO)
 
