@@ -8,7 +8,7 @@
 - 🔹 [1641] - Por defecto está asi ➡ **NOZZLE_TO_PROBE_OFFSET { -44, -5, 0 }**, así mismo lo tengo yo
 - 🔹 [2106] - Por defecto esta asi ➡ **#define AUTO_BED_LEVELING_LINEAR**, hay que comentarlo con // delante
 - 🔹 [2107] - Y descomentamos esta, que quede asi ➡ **#define AUTO_BED_LEVELING_BILINEAR**
-- 🔹 [2130 / 2131] - Por defecto esta en 120ºC y 50ºC, se puede cambiar, es para calentar cuando se nivela la cama
+- 🔹 [2130 / 2131] - Por defecto esta en **120ºC y 50ºC**, se puede cambiar, es para calentar cuando se nivela la cama
      Desde la 2128 a 2132 asegurarse que estan descomentadas. En todo caso solo habria la 2128 comentada
 
 #### 🔧 **(Valores modificados en "Configuration_adv.h")** 🔧
