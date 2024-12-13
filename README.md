@@ -1,4 +1,4 @@
-# 📜 **Archivo de Configuración de Creality Ender 5 (con BL Touch)** 🖨️
+## 📜 **Archivo de Configuración de Creality Ender 5 (con BL Touch)** 🖨️
 
 ### 🔧 **(VALORES QUE SE HAN MODIFICADO)** 🔧
 
