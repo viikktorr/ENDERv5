@@ -9,7 +9,6 @@
 - 🔹 [2106] - Por defecto esta asi ➡ **#define AUTO_BED_LEVELING_LINEAR**, hay que comentarlo con // delante
 - 🔹 [2107] - Y descomentamos esta, que quede asi ➡ **#define AUTO_BED_LEVELING_BILINEAR**
 - 🔹 [2130 / 2131] - Por defecto esta en **120ºC y 50ºC**, se puede cambiar, es para calentar cuando se nivela la cama. Desde la 2128 a 2132 asegurarse que estan descomentadas.
-
 - 🔹 [2190] - He cambiado el valor que viene por defecto en **#define GRID_MAX_POINTS_X 3**, el 3 por un 5, ya que asi ara un total de 25 puntos y no 9 como hace por defecto, con eso conseguimos que el nivel de calibración sea con mayor precisión.
 
 #### 🔧 **(Valores modificados en "Configuration_adv.h")** 🔧
