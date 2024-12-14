@@ -15,4 +15,4 @@
 
 - 🔹 [2311] - En el default esta asi ➡ **//#define BABYSTEP_ZPROBE_OFFSET**,  hay que descomentarlo, quitando **//**
 
-<span style="color:yellow;">[71]</span>
+- <span style="color:yellow;">[71]</span>
