@@ -15,14 +15,6 @@
 
 - 🔹 [2311] - En el default esta asi ➡ **//#define BABYSTEP_ZPROBE_OFFSET**,  hay que descomentarlo, quitando **//**
 
-# ⚙️ Configuración de Marlin
-
 ### 🔹 [71] - La placa base es **v4.2.7**  
-➡ **`#define MOTHERBOARD BOARD_CREALITY_V427`**
-
-### 🔹 [134] - Nombre de la máquina cambiado  
-➡ **`#define CUSTOM_MACHINE_NAME "Ender 5 - v4.2.7"`**
-
-### 🔹 🛠️ [157-171] - Motores cambiados a TMC2209  
-➡ Por defecto: **`TMC2208_STANDALONE`**  
-➡ Cambiado a: **`TMC2209_STANDALONE`**
+```c
+#define MOTHERBOARD BOARD_CREALITY_V427
