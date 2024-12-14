@@ -1,6 +1,6 @@
 ## 📜 **Archivo de Configuración de Creality Ender 5 (con BL Touch)** 🖨️
 
-### 🔧 **(Valores modificados en ["Configuration.h"](./config%20files/Configuration.h))** 🔧
+### 🔧 **(Valores modificados en ["Configuration.h"](./Config%20Files/Configuration.h))** 🔧
 
 🔹 **[71]** - La placa base es **v4.2.7**
 ```c
