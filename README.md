@@ -4,7 +4,8 @@
 
 🔹 **[71]** - La placa base es **v4.2.7**
 ```c
-#define MOTHERBOARD BOARD_CREALITY_V427 <br>
+#define MOTHERBOARD BOARD_CREALITY_V427 
+```<br>
 🔹 **[134]** <br>
 🔹 **[157,158,159,171]** <br>
 🔹 **[1641]** <br>
