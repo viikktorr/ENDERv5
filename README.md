@@ -15,4 +15,6 @@
 
 - 🔹 [2311] - En el default esta asi ➡ **//#define BABYSTEP_ZPROBE_OFFSET**,  hay que descomentarlo, quitando **//**
 
-- <span style="color:yellow;">[71]</span>
+### 🔹 [71] - La placa base es **v4.2.7**  
+```c
+#define MOTHERBOARD BOARD_CREALITY_V427
