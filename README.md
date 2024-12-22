@@ -59,3 +59,36 @@
 ```c
 #define BABYSTEP_ZPROBE_OFFSET
 ```
+
+## [CURRENT CONFIG]
+```c
+>>> m503
+SENDING:M503
+echo:; Linear Units:
+echo:  G21 ; (mm)
+echo:; Temperature Units:
+echo:  M149 C ; Units in Celsius
+echo:; Filament settings (Disabled):
+echo:  M200 S0 D1.75
+echo:; Steps per unit:
+echo:  M92 X80.00 Y80.00 Z400.00 E93.00
+echo:; Max feedrates (units/s):
+echo:  M203 X500.00 Y500.00 Z5.00 E25.00
+echo:; Max Acceleration (units/s2):
+echo:  M201 X500.00 Y500.00 Z100.00 E5000.00
+echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+echo:  M204 P500.00 R500.00 T500.00
+echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>):
+echo:  M205 B20000.00 S0.00 T0.00 J0.08
+echo:; Home offset:
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:; Auto Bed Leveling:
+echo:  M420 S0 Z10.00 ; Leveling OFF
+echo:; Material heatup parameters:
+echo:  M145 S0 H185.00 B45.00 F255
+echo:  M145 S1 H240.00 B70.00 F255
+echo:; Hotend PID:
+echo:  M301 P21.73 I1.54 D76.55
+echo:; Z-Probe Offset:
+echo:  M851 X-44.00 Y-5.00 Z-0.40 ; (mm)
+```
