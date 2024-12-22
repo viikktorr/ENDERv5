@@ -68,7 +68,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_CREALITY_V427 // Version de la placa que se encuentra en la parte inferior, junto la fuente de alimentacion
+  #define MOTHERBOARD BOARD_CREALITY_V427
 #endif
 
 // @section serial
@@ -1638,7 +1638,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -44, -5, 0 }
+#define NOZZLE_TO_PROBE_OFFSET { -44, -5, -0.4 }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
