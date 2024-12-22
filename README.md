@@ -7,12 +7,12 @@
 #define MOTHERBOARD BOARD_CREALITY_V427 
 ```
 
-🔹 [134] - (Optional) Change name
+🔹 [134] - **(Optional)** Change name
 ```c
 #define CUSTOM_MACHINE_NAME "Ender 5 - v4.2.7"
 ```
 
-🔹 [134] - (Optional) Change name
+🔹 [157,158,159,171] - In my case, I used TMC2209_STANDALONE, but TMC2208_STANDALONE would also work
 ```c
 #define X_DRIVER_TYPE  TMC2209_STANDALONE
 #define Y_DRIVER_TYPE  TMC2209_STANDALONE
@@ -34,7 +34,7 @@
 //#define MESH_BED_LEVELING
 ```
 
-🔹 [2130-2131] - OPTIONAL - Enable preheating both the NOZZLE and the BED before leveling:
+🔹 [2130-2131] - **(OPTIONAL)** - Enable preheating both the NOZZLE and the BED before leveling:
 ```c
 #define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
@@ -43,7 +43,7 @@
 #endif
 ```
 
-🔹 [2190] - OPTIONAL but RECOMMENDED, as by default it will only do 3x3, 9 points in total. As shown, it will do 25 points.
+🔹 [2190] - **(OPTIONAL)** but RECOMMENDED, as by default it will only do 3x3, 9 points in total. As shown, it will do 25 points.
 ```c
 #define GRID_MAX_POINTS_X 5
 ```
