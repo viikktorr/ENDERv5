@@ -20,6 +20,11 @@
 #define E0_DRIVER_TYPE TMC2209_STANDALONE
 ```
 
+🔹 [1437] - This value should be like this
+```c
+//#define PROBE_MANUALLY
+```
+
 🔹 [1641] - My values are these
 ```c
 #define NOZZLE_TO_PROBE_OFFSET { -44, -5, -0.4 }
